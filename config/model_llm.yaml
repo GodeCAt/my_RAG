@@ -1,0 +1,8 @@
+model_bases:
+  - name: Qwen1.5-14B-Chat
+    model_type: Qwen1_5
+    model_path_or_id: /home/LLM/Qwen1.5-14B-Chat/
+  - name: B2-13B-Lora05
+    model_type: Baichuan2
+    model_path_or_id: /home/LLM/Baichuan2-13B-Chat/
+    lora_weights_path: /home/Checkpoint/B2-13B-partial05/

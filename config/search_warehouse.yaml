@@ -1,0 +1,5 @@
+data_bases:
+  - name: agri_knowledge_bge
+    type: BGE_retriever
+    raw_file_path: /home/my_rag/re_data/knowledge_bge/agri_knowledge.txt
+    index_file_path: /home/my_rag/re_data/knowledge_bge/agri_knowledge.index
